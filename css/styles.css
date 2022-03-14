@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.site-hero {
+  background-color: #0eb4c1;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.hero-content {
+  width: 500px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.hero-heading {
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.hero-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.hero-img {
+  margin: 0;
+  padding: 0;
+}
+
+.hreo-link {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.hero-link:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
+}
+
+.site-services {
+  background-color: #fff;
+}
+
+.services-heading {
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  padding-top: 56px;
+  text-align: center;
+}
+
+.services-content {
+  width: 865px;
+  margin-left: 120px;
+  margin-bottom: 40px;
+}
+
+.services-mincontent {
+  display: flex;
+  width: 865px;
+  padding: 20px;
+}
+
+.services-img {
+  border-radius: 24px;
+  box-shadow:  rgba(0, 107, 116, 0.3);
+}
+
+.services-info-heading {
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  color: #222;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.services-info-wrap {
+  margin-left: 40px;
+}
+
+.services-info-text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #444444;
+  letter-spacing: 0.5px;
+}
+
+.services-link-btn {
+  margin-left: 320px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+
+.site-acceptance {
+  background-color: #0eb4c1;
+  color: #fff;
+  text-align: center;
+}
+
+.acceptance-content {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.acceptance-heading {
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.acceptance-link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: background-color 0.4s ease, opacity 0.4s ease;
+}
+
+.acceptance-link-left {
+  margin-right: 30px;
+}
+
+.acceptance-link:hover {
+  background-color: #de2e54;
+}
+
+.acceptance-link:active {
+  opacity: 0.6;
+}
+
